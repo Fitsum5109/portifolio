@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.skills-section-container{
+    /* border-bottom: 5px solid black; */
+}
+
+/* Mobile Design */
+.mobile-skills-section-container{
+    /* background-color: blue; */
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.mobile-skills-section-container li{
+    padding-top: 15px;
+    font-size: 17px;
+}
+
+.mobile-skills-big-text{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.mobile-skills-section-container ul{
+    font-weight: 300;
+}
+
+/* Big screen Design */
+.big-screen-skills-section-container{
+    max-width: 900px;
+    margin: auto;
+    text-align: left;
+    padding-top: 80px;
+}
+
+.big-screen-big-text{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.big-screen-skills-icons-container{
+    /* background-color: blue; */
+    max-width: 900px;
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 100px;
+}
+
+.skill-icon{
+    width: 110px;
+    height: 110px;
+    border:4px solid #EB0450;
+    border-radius: 50%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-icon:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.skill-icon-1{
+    background-image: url("../Resource/Icons/Red/html5-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-icon-2{
+    background-image: url("../Resource/Icons/Red/css3-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-icon-3{
+    background-image: url("../Resource/Icons/Red/js-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-icon-4{
+    background-image: url("../Resource/Icons/Red/bootstrap-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-icon-5{
+    background-image: url("../Resource/Icons/Red/database-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.skill-icon-6{
+    background-image: url("../Resource/Icons/Red/java-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 1200px){
+    .big-screen-skills-section-container{
+        display: none;
+    }
+}
+
+@media(min-width: 1200px){
+    .mobile-skills-section-container{
+        display: none;
+    }
+}

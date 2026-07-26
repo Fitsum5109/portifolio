@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.footer-container{
+    max-width: 100%;
+    background-color: black;
+    height: 160px;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-social-media-icons-container{
+    /* background-color: blue; */
+    max-width: 300px;
+    height: 70px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media-icon{
+    /* background-color: yellow; */
+    width: 60px;
+    height: 60px;
+}
+
+.linkedin-logo{
+    background-image: url("../Resource/Icons/Red/linkedin-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.telegram-logo{
+    background-image: url("../Resource/Icons/Red/telegram-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.instagram-logo{
+    background-image: url("../Resource/Icons/Red/instagram-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.x-logo{
+    background-image: url("../Resource/Icons/Red/x-twitter-brands-solid.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

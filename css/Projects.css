@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+.project-section-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.project-big-text{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.project-cards-container{
+    /* background-color: blue; */
+    max-width: 900px;
+    margin: auto;
+}
+
+.project-cards{
+    background-color: #EB0450;
+    max-width: 250px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+    border: 3px solid #EB0450;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-cards:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+}
+
+.project-cards > div{
+    max-width: 100%;
+    /* background-color: green; */
+    height: 250px;
+    border-radius: 20px;
+}
+
+.project-cards-container p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 17px;
+    padding-top:15px;
+}
+
+.project-cards-container a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.card-1-image{
+    background-image: url("../Resource/Images/puppy2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-2-image{
+    background-image: url("../Resource/Images/apple2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-3-image{
+    background-image: url("../Resource/Images/rental2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(min-width: 780px){
+    .project-cards-container{
+        display: flex;
+    }
+}
+
+@media(min-width: 1200px){
+    .project-big-text{
+        font-size: 45px;
+        font-weight: 400;
+        text-align: left;
+    }
+    .project-section-container{
+        padding-top: 90px;
+    }
+}
+
+
