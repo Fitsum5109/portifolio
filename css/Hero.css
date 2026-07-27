@@ -33,6 +33,11 @@ body{
     border: 5px solid #EB0450;
 }
 
+.mobile-hero-button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .mobile-hero-bold-text{
     text-align: center;
     font-size: 25px;
